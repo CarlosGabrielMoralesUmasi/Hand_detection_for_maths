@@ -11,7 +11,7 @@ in real-time using a webcam. The system uses these gestures to perform arithmeti
 The project is built using Python and relies on computer vision and machine learning techniques to recognize hand gestures. 
 It consists of the following main steps:
 
-1. **Data Collection** - Capturing images of hand gestures for numbers 0-9.
+1. **Data Collection** - Capturing images of hand gestures representing numbers 0-9.
 2. **Dataset Preparation** - Preprocessing the collected images for training.
 3. **Model Training** - Training a classifier to recognize hand gestures.
 4. **Real-Time Detection** - Detecting gestures in real-time and performing arithmetic operations.
@@ -30,7 +30,7 @@ It consists of the following main steps:
    To install all required libraries, use the following command:
 
    ```bash
-   pip install opencv-python mediapipe numpy scikit-learn
+   pip install -r requirements.txt
    ```
 
 ---
@@ -154,24 +154,11 @@ This project uses a **Random Forest Classifier** trained on images of hand gestu
 
 ## License
 
-This project is licensed under the Apache License 2.0.
-
-```
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
-
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
-
-   1. Definitions.
-
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
-
-      [License text continues as per Apache 2.0 full text]
-```
+This project is licensed under the Apache License [Licence].
 
 ---
+
+## Troubleshooting
 
 - Ensure that each script is run in sequence as described.
 - If encountering issues with MediaPipe, verify the camera permission settings.
