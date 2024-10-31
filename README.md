@@ -3,6 +3,7 @@
 
 This project enables users to detect hand gestures representing numbers and basic mathematical operators (+, -, *, /) 
 in real-time using a webcam. The system uses these gestures to perform arithmetic operations, displaying the result.
+![Hand Gestures](image.jpg)
 
 ---
 
