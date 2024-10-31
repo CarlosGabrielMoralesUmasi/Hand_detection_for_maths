@@ -152,9 +152,9 @@ This project uses a **Random Forest Classifier** trained on images of hand gestu
 
 ---
 
-## License
+## Licence
 
-This project is licensed under the Apache License [Licence].
+This project is licensed under the terms of the [Licencia Apache 2.0](LICENSE).
 
 ---
 
